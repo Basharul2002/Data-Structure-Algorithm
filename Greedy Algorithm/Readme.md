@@ -1,65 +1,50 @@
-# Greedy Algorithms Collection
+# Greedy Algorithms in C++
 
-This C++ project provides implementations of various greedy algorithms, including DFS, BFS, Dijkstra's algorithm, and the Knapsack problem. Greedy algorithms aim to make locally optimal choices at each stage with the hope of finding a global optimum.
+This C++ project demonstrates the implementation of various greedy algorithms. The implemented algorithms include Depth-First Search (DFS), Breadth-First Search (BFS), Dijkstra's algorithm, and two versions of the Knapsack problem (Knapsack and 0/1 Knapsack).
 
 ## Table of Contents
 
 - [Overview](#overview)
-- [DFS (Depth-First Search)](#dfs-depth-first-search)
-- [BFS (Breadth-First Search)](#bfs-breadth-first-search)
+- [Depth-First Search (DFS)](#depth-first-search-dfs)
+- [Breadth-First Search (BFS)](#breadth-first-search-bfs)
 - [Dijkstra's Algorithm](#dijkstras-algorithm)
 - [Knapsack Problem](#knapsack-problem)
+- [0/1 Knapsack Problem](#01-knapsack-problem)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Overview
 
-This project includes C++ implementations of the following greedy algorithms:
+This project provides C++ implementations of well-known greedy algorithms. Each algorithm is implemented in a modular and understandable manner for educational purposes.
 
-- **DFS (Depth-First Search):** An algorithm for traversing or searching tree or graph data structures.
-- **BFS (Breadth-First Search):** A strategy for searching in graphs and tree data structures.
-- **Dijkstra's Algorithm:** A graph search algorithm that solves the single-source shortest path problem.
-- **Knapsack Problem:** A classic optimization problem for selecting the best combination of items without exceeding a given weight.
+## Depth-First Search (DFS)
 
-## DFS (Depth-First Search)
+The `DFS.cpp` file contains the implementation of Depth-First Search algorithm.
 
-The `DFS` class provides methods for performing a depth-first search on a graph.
+## Breadth-First Search (BFS)
 
-### Methods
-
-- `dfsTraversal`: Executes a depth-first traversal on a graph.
-
-## BFS (Breadth-First Search)
-
-The `BFS` class provides methods for performing a breadth-first search on a graph.
-
-### Methods
-
-- `bfsTraversal`: Executes a breadth-first traversal on a graph.
+The `BFS.cpp` file contains the implementation of Breadth-First Search algorithm.
 
 ## Dijkstra's Algorithm
 
-The `Dijkstra` class provides an implementation of Dijkstra's algorithm for finding the shortest path in a graph.
-
-### Methods
-
-- `dijkstra`: Finds the shortest path in a weighted graph using Dijkstra's algorithm.
+The `Dijkstra.cpp` file contains the implementation of Dijkstra's algorithm for finding the shortest path in a weighted graph.
 
 ## Knapsack Problem
 
-The `Knapsack` class implements the greedy algorithm for solving the 0/1 Knapsack problem.
+The `Knapsack.cpp` file contains the implementation of the Knapsack problem, a classic optimization problem.
 
-### Methods
+## 0/1 Knapsack Problem
 
-- `knapsackGreedy`: Solves the 0/1 Knapsack problem using a greedy approach.
+The `01Knapsack.cpp` file contains the implementation of the 0/1 Knapsack problem, a variation of the Knapsack problem.
 
 ## Usage
 
 ### Prerequisites
 
 - C++ compiler
-  
+
+
 ## Contributing
 
 If you would like to contribute to this project, feel free to fork the repository and submit pull requests.
