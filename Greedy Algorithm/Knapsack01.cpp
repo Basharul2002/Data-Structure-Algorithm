@@ -19,3 +19,36 @@ int knapsack01(Item items[], int n, int capacity)
 
     return bag[n][capacity];
 }
+
+
+int main()
+{
+    int n, capacity;
+    cout<<"Enter the number of items: ";
+    cin>>n;
+    cout<<endl;
+    Item items[n];
+
+    for (int i = 0; i < n; i++)
+    {
+        cout<<"Item-"<<i+1<<endl<<"******"<<endl;
+        cout<<"Enter the weight: ";
+        cin>>items[i].weight;
+        cout<<"Enter the profit: ";
+        cin>>items[i].value;
+
+        cout<<endl;
+    }
+
+    cout<<endl<<"Enter the knapsack capacity: ";
+    cin>>capacity;
+
+    cout<<endl<<endl<<"Optimal Solution"<<endl<<"****************"<<endl;
+    cout<<"Maximum profit using Fractional Knapsack: "<<(double)fractionalKnapsack(items, n, capacity)<<endl;
+    cout<<"Maximum profit using 0/1 Knapsack: "<<knapsack01(items, n, capacity);
+
+
+    cout<<endl<<endl;
+    return 0;
+}
+
