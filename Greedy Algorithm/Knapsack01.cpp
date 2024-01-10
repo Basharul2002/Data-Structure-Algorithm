@@ -1,3 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+bool compare(Item a, Item b)
+{
+    return ((double)a.value / a.weight) > ((double)b.value / b.weight);
+}
+
+
 int knapsack01(Item items[], int n, int capacity)
 {
     int bag[n+1][capacity+1];
@@ -19,6 +28,8 @@ int knapsack01(Item items[], int n, int capacity)
 
     return bag[n][capacity];
 }
+
+
 
 
 int main()
@@ -44,7 +55,6 @@ int main()
     cin>>capacity;
 
     cout<<endl<<endl<<"Optimal Solution"<<endl<<"****************"<<endl;
-    cout<<"Maximum profit using Fractional Knapsack: "<<(double)fractionalKnapsack(items, n, capacity)<<endl;
     cout<<"Maximum profit using 0/1 Knapsack: "<<knapsack01(items, n, capacity);
 
 
