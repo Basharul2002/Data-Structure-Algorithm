@@ -65,7 +65,7 @@ The `Knapsack` class implements the greedy algorithm for solving the 0/1 Knapsac
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/Basharul2002/Data-Structure-Algorithm/tree/main/Greedy%20Algorithm.git
     ```
 
 2. Compile the C++ code:
