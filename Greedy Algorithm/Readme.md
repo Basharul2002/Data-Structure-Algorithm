@@ -60,26 +60,6 @@ The `Knapsack` class implements the greedy algorithm for solving the 0/1 Knapsac
 
 - C++ compiler
 
-### Building and Running
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/Basharul2002/Data-Structure-Algorithm/tree/main/Greedy%20Algorithm.git
-    ```
-
-2. Compile the C++ code:
-
-    ```bash
-    g++ main.cpp DFS.cpp BFS.cpp Dijkstra.cpp Knapsack.cpp -o greedy_algorithms
-    ```
-
-3. Run the executable:
-
-    ```bash
-    ./greedy_algorithms
-    ```
-
 4. Follow the on-screen instructions to choose and execute a specific greedy algorithm.
 
 ## Contributing
