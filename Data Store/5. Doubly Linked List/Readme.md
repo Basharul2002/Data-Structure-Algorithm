@@ -39,7 +39,7 @@ The `Queue` class also uses the `DoublyLinkedList` to implement a basic queue. I
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/Basharul2002/Data-Structure-Algorithm/tree/main/Data%20Store/5.%20Doubly%20Linked%20List.git
     ```
 
 2. Compile the C++ code:
