@@ -1,6 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
+struct Item
+{
+    int weight;
+    int value;
+};
+
+
 bool compare(Item a, Item b)
 {
     return ((double)a.value / a.weight) > ((double)b.value / b.weight);
