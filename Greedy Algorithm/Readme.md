@@ -59,9 +59,7 @@ The `Knapsack` class implements the greedy algorithm for solving the 0/1 Knapsac
 ### Prerequisites
 
 - C++ compiler
-
-4. Follow the on-screen instructions to choose and execute a specific greedy algorithm.
-
+  
 ## Contributing
 
 If you would like to contribute to this project, feel free to fork the repository and submit pull requests.
