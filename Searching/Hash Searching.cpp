@@ -1,7 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int search(const vector<int>& nums, int target) {
+int search(const vector<int>& nums, int target) 
+{
     unordered_map<int, int> numToIndex;
 
     // Fill the hash table with values and their indices
