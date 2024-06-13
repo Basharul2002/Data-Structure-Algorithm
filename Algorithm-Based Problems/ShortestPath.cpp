@@ -1,5 +1,4 @@
-#include <bits/stc++.h>
-
+#include<bits/stdc++.h>
 using namespace std;
 
 // Structure to represent an edge between two cities with a distance
